@@ -12,25 +12,46 @@
         <form class="form-signup">
             <h2>Register</h2>
             <p>Create Your account</p>
+
             <div class="form-group">
                 <dv class="row">
                     <div class="col-md-6">
-                        <input type="text" class="form-control" name="firstname" placeholder="First Name">
+                        <label for="First-Name" class="form-label">First Name</label>
+                        <input type="text" class="form-control" name="firstname" id="First-Name">
                     </div>
                     <div class="col-md-6">
-                        <input type="text" class="form-control" name="lastname" placeholder="Last Name">
+                        <label for="Last-Name" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" name="lastname" id="Last-Name">
                     </div>
                 </dv>
             </div>
+
             <div class="form-group">
-                <input type="email" class="form-control" name="email" placeholder="Email Adress">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="name@example.com">
             </div>
+
             <div class="form-group">
-                <input type="password" class="form-control" name="password" placeholder="Password">
+                <label for="inputPassword5" class="form-label">Password</label>
+                <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
             </div>
+
             <div class="form-group">
-                <input type="repassword" class="form-control" name="confirm_password" placeholder="Comfirm Password">
+                <label for="inputrePassword" class="form-label">Confirm Password</label>
+                <input type="password" id="inputPassword5" class="form-control" aria-describedby="inputrePassword">
+                <div id="passwordHelpBlock" class="form-text">
+                    Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
+                </div>
             </div>
+
+            <div class="form-group">
+                <label for="">
+                    <input type="checkbox">
+                    I accept the <a href="#">term of use</a> & <a href="">Privacy</a>
+                </label>
+            </div>
+
+            <input type="submit" class="btn btn-success btn-block" value="Submit">
         </form>
     </div>
  
