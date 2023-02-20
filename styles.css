@@ -8,17 +8,20 @@ body{
 
 .form-signup{
     margin: 0 auto;
-    max-width: 400px;
-    background-color: #48577b;
+    max-width: 420px;
+    background-color: rgba(72, 87, 123, 0.8);
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 20px;
 }
+.form-group{
+    margin-bottom: 10px;
+}
 
 .btn{
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .form-signup h2, p{
