@@ -1,10 +1,18 @@
 body{
     padding-top: 50px;
+    background-image: url("https://www.freecodecamp.org/news/content/images/2022/09/jonatan-pie-3l3RwQdHRHg-unsplash.jpg");
+    position: relative;
+    background-position: center bottom;
 }
 
 
 .form-signup{
     margin: 0 auto;
     max-width: 400px;
-    
+    background-color: #48577b;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
 }
