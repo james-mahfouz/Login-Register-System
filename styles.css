@@ -10,9 +10,17 @@ body{
     margin: 0 auto;
     max-width: 400px;
     background-color: #48577b;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     border-radius: 20px;
+}
+
+.btn{
+    margin-top: 15px;
+}
+
+.form-signup h2, p{
+    text-align: center;
 }
